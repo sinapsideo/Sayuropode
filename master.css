@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200&display=swap');
+
+html {
+  font-family: 'Roboto', monospace;
+}
+body {
+  background: url(Images/ourico.jpg);
+  background-size: cover;
+}
+.time {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 10px;
+  padding: 30px 50px;
+  background-color: #21D4FD;
+  box-shadow: 5px 5px lightblue;
+}
+
+h1 {
+  font-size: rem;
+  color: #950101;
+  text-shadow: 1px 1px pink;
+}
+h3 {
+  color: #161853;
+  text-shadow: 1px 1px lightblue;
+
+}
