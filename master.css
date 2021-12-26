@@ -3,6 +3,7 @@
 html {
   font-family: 'Roboto', monospace;
 }
+
 body {
   background: url(Images/ourico.jpg);
   background-size: cover;
@@ -13,19 +14,18 @@ body {
   top: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  border-radius: 10px;
-  padding: 30px 50px;
-  background-color: #21D4FD;
-  box-shadow: 5px 5px lightblue;
+  border-radius: 20px;
+  padding: 30px 20vw;
+  background-color: #142F43;
 }
 
 h1 {
-  font-size: rem;
-  color: #950101;
+  font-size: 7vh;
+  color: #FF5F7E;
   text-shadow: 1px 1px pink;
 }
 h3 {
-  color: #161853;
-  text-shadow: 1px 1px lightblue;
+  color: #FFAB4C;
+  font-size: 1.7vh;
 
 }
