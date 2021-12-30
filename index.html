@@ -1,15 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="master.css">
-    <title>Rawr</title>
-  </head>
-  <body>
-    <div class="time">
-      <h1>Tá quase, pera aí...</h1>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Saurópodes</title>
 
-    </div>
-
-  </body>
+    </head>
+    <body>
+        <div class="att">
+            <video autoplay muted loop poster="Images\poster1-min.png" id="video"><source src="Videos\background.webm" type="video/mp4" poster="Images\poster1-min.png" /></video>
+            <div class="textos">
+                <h1 id="attention">ATENÇÃO</h1>
+                <p class="attention2">
+                    Você está prestes a visitar um site com informações sigilosas,<br />
+                    deseja mesmo continuar?
+                </p>
+                <div class="butao">
+                    <button id="option1"><a href="history.html">SIM</a></button><button id="option2" title="é pra clicar no outro!" onclick="alerta()">NÃO</button>
+                </div>
+                <p id="risk">As informações contidas nesse documento não devem ser compartilhadas!</p>
+                <p id="risk"><small>Para melhor compatibilidade coloque em modo tela cheia(F11)</small></p>
+            </div>
+        </div>
+        <footer><cite title="para os saurópodes do mundo!">Feito por Sinapsídeo</cite></footer>
+        <script>
+            function alerta() {
+                alert("RAWR, é pra clicar no SIM!!!");
+            }
+        </script>
+    </body>
 </html>
